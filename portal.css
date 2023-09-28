@@ -1,0 +1,13 @@
+
+a {
+    background-color: lightblue;
+    color : #000000;
+    text-decoration: none;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+}
