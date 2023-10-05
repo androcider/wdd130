@@ -8,6 +8,11 @@ a {
     text-align: center;
 }
 
+a:hover{
+    background-color: darkgray;
+    color: white;
+}
 nav {
     display: flex;
+    justify-content: center;
 }
