@@ -1,0 +1,28 @@
+body {
+    max-width: max-content;
+    margin: auto;
+    }
+.circle_box {
+    background-color: grey;
+    max-width: 1280px;
+    
+}
+
+.banner_box {
+    background-color: grey;
+    max-width: 1280px;
+}
+.circle_box img{ 
+    
+    background-color: rgb(67, 65, 65);
+    padding: 15px;
+    margin: 20px;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-left: 100px;
+   
+
+    }
+
+
