@@ -1,0 +1,20 @@
+
+main{
+    display: grid;
+    grid-template-columns:repeat(1fr,1fr);
+    grid-template-rows: repeat(1fr);
+
+}
+img {
+    width: 100%;
+}
+#cherries {
+    grid-column: 1/2;
+    
+}
+.gray{
+    width: 1fr;
+    height: 1fr;
+    background-color: gray;
+    grid-column: 2/3;
+}
