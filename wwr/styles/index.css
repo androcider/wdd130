@@ -1,31 +1,56 @@
 @import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon&family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
 
-
+#content {
+    max-width: 1600px;
+    margin: 0 auto; 
+}
 .home-title {
     font-family: 'IM Fell French Canon', 'Helvetica', sans-serif;
     font-size: 2em;
     margin-top: 10px;
 }
-            
+
+header{
+    background-color: #fcfbfb;
+}
 .msg {
     background-color: #365359;
     line-height: 1.5em;
     padding: 35px;
   }
     
+nav a:hover {
+    background-color: #6cc4c1;
+}
 body {
     background-color: #fcfbfb;
     font-family:  Lato, Helvetica, sans-serif;
     font-size: 22px;
     margin: 0;
     padding: 0;
+    text-align: center;
 }
+
+#hero-msg h1, #hero-msg h4{
+    text-align: center;
+}
+
+
+#background {
+    height: 725px;
+    background-color: #6cc4c1;
+}
+               
 h2 {
     margin: 0;
 }                    
 
+.button-box{
+    text-align: center;
+    
+}
 .book {
-    background-color: #d9c2a3;
+    background-color: #6cc4c1;
     color: black;
     text-decoration: none;
     font-size: 18px;
@@ -34,9 +59,12 @@ h2 {
     border-radius: 5px;
 }
 
+.book:hover, .join:hover{
+    background-color: #365359;
+    color: white;
+}
 .join {
-    background-color: #d9c2a3;
-    color: black;
+    background-color: #6cc4c1;
     text-decoration: none;
     font-size: 18px;
     padding: 15px 30px;
@@ -45,6 +73,7 @@ h2 {
 }
 
 .msg p {
+   
     font-size: .8em;
     padding-bottom: 15px;
     
@@ -63,13 +92,22 @@ nav a {
 }
 .icon  { 
     padding-top: 10px;
+    width: 80px
 }
 
 footer {
     padding: 25px 50px;
     margin-top: 200px;
+    background-color: white;
+  
 }
-
+footer a {
+    text-decoration: none;
+}
+footer p a:hover {
+    text-decoration: underline;
+}    
+                    
 footer .social img   {
     padding-top: 15px;
 }
