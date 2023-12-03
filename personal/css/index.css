@@ -29,13 +29,7 @@
     max-width: 1600px;
     margin: 0 auto; 
 }
-body {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 4em;
-  font-size: 18px;
-  text-align: center;
-}
+
 img {
   display: block;
   margin: 0 auto;
@@ -108,6 +102,7 @@ body {
     font-size: 22px;
     margin: 0;
     padding: 0;
+    justify-items: center;
     text-align: center;
 }
 .primary {
@@ -167,7 +162,7 @@ nav a:hover {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
-#intro{
+#intro-index{
     
     grid-column: 1/3;
 }
@@ -194,14 +189,69 @@ nav a:hover {
     grid-column: 3/4;
 }
 
-#outro{
+#outro-index{
     grid-column:1/4;
     grid-row:4/5;
 }
 
+.special-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 
+}
+.special-grid h1{
 
+    grid-column:1/4;
+    grid-row:1/2;
+}
+#baby{
+    grid-column:1/2;
+    grid-row:2/3;
+}
 
+#baby-list{
+    
+    justify-items: center;
+    color:#D64933;
+    grid-column: 2/3;
+    grid-row: 2/3;
+
+}
+.baby_img{
+    size: 80%;
+    width:100%;
+    grid-column:3/4 ;
+   
+}
+.dog{
+    width:100%;
+    grid-column:1/2 ;
+   
+}
+
+#pet-list{
+    
+    justify-items: center;
+    color:#D64933;
+    grid-column: 3/4;
+    grid-row: 3/4;
+}
+
+.special-grid h2{
+    
+    grid-column: 1/4;
+
+}
+
+#winter-list{
+    color:#D64933;
+    grid-column: 2/3;
+}
+
+.winter-img{
+    size:70%;
+    width: 100%;
+}
 /* form css */
 
   
