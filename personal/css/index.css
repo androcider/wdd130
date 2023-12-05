@@ -30,10 +30,6 @@
     margin: 0 auto; 
 }
 
-img {
-  display: block;
-  margin: 0 auto;
-}
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--heading-font);
   color: var(--headline-color-on-white);
@@ -59,7 +55,7 @@ header > h1, header > h2 {
 }
 footer {
     padding: 25px 50px;
-    margin-top: 200px;
+    margin-top: 100px;
     background-color: white;
     display: flex;
     justify-content: space-around;
@@ -161,6 +157,7 @@ nav a:hover {
 .home-grid{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    align-items: center;
 }
 #intro-index{
     
@@ -183,10 +180,12 @@ nav a:hover {
 #basic-list{
     color:#D64933;
     grid-column: 2/3;
+    line-height: 150%;
 }
 #basic-list2{
     color:#D64933;
     grid-column: 3/4;
+    line-height: 150%;
 }
 
 #outro-index{
@@ -197,7 +196,7 @@ nav a:hover {
 .special-grid{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-
+    align-items: center;
 }
 .special-grid h1{
 
@@ -215,6 +214,7 @@ nav a:hover {
     color:#D64933;
     grid-column: 2/3;
     grid-row: 2/3;
+    line-height: 150%;
 
 }
 .baby_img{
@@ -235,6 +235,7 @@ nav a:hover {
     color:#D64933;
     grid-column: 3/4;
     grid-row: 3/4;
+    line-height: 150%;
 }
 
 .special-grid h2{
@@ -246,6 +247,7 @@ nav a:hover {
 #winter-list{
     color:#D64933;
     grid-column: 2/3;
+    line-height: 150%;
 }
 
 .winter-img{
