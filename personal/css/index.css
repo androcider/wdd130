@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
-
+#content {
+  max-width: 1600px;
+  margin: 0 auto; 
+}
 :root {
   /* change the values below to your colors from your palette */
   --primary-color: #D64933;
